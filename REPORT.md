@@ -88,11 +88,11 @@ X = [ [ [ chair, 0, armchair ], [ chair, table, cupdoard ] ], [ [ chair, armchai
 ?- search_id1([[table,chair,cupdoard],[chair,0,armchair]],[[_,_,armchair],[_,_,cupdoard]],X).
 X = [ [ [ chair, 0, armchair ], [ chair, table, cupdoard ] ], [ [ chair, armchair, 0 ], [ chair, table, cupdoard ] ], [ [ chair, armchair, cupdoard ], [ chair, table, 0 ] ], [ [ chair, armchair, cupdoard ], [ chair, 0, table ] ], [ [ chair, 0, cupdoard ], [ chair, armchair, table ] ], [ [ 0, chair, cupdoard ], [ chair, armchair, table ] ], [ [ chair, chair, cupdoard ], [ 0, armchair, table ] ], [ [ chair, chair, cupdoard ], [ armchair, 0, table ] ], [ [ chair, chair, cupdoard ], [ armchair, table, 0 ] ], [ [ chair, chair, 0 ], [ armchair, table, cupdoard ] ], [ [ chair, 0, chair ], [ armchair, table, cupdoard ] ], [ [ chair, table, chair ], [ armchair, 0, cupdoard ] ], [ [ chair, table, chair ], [ 0, armchair, cupdoard ] ], [ [ 0, table, chair ], [ chair, armchair, cupdoard ] ], [ [ table, 0, chair ], [ chair, armchair, cupdoard ] ], [ [ table, chair, 0 ], [ chair, armchair, cupdoard ] ], [ [ table, chair, cupdoard ], [ chair, armchair, 0 ] ], [ [ table, chair, cupdoard ], [ chair, 0, armchair ] ] ] 
 
-|Алгоритм поиска|Длина первого найдениго пути|Время работы|
-|---------------|----------------------------|------------|
-|В глубину      |186                         ||
-|В ширину       |18                          ||
-|с итерационным заглублением|18               ||
+|Алгоритм поиска|Длина первого найдениго пути|
+|---------------|----------------------------|
+|В глубину      |186                         |
+|В ширину       |18                          |
+|с итерационным заглублением|18              |
 # Выводы 
 В этой лабораторной работе я изучила методы поиска в пространсве состояний, научилать применять их, узнала где они могут пригодиться.
 Какие алгоритмы поиска в каких случаях удобно использовать?
